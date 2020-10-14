@@ -53,9 +53,30 @@ Aside from the paper, documentation pertaining to the datasets are also avaialab
 - [`Benchmarks.ipynb`](./Dataset/Benchmarks.ipynb)
   contains codes used in benchmark tests on the datasets.
 
-### Miscellaneous files
+### Others
 
-Files not related 
+[`./Miscellaneous`](./Miscellaneous) contains some supporting files
+that are not directly used in the paper, in the datasets, or in the experiments.
+
+Much of the work is performed in a conda environment with the following key packages:
+
+- Python 3.8.0
+- Matplotlib 3.3.2
+- NumPy 1.19.2
+- pandas 1.1.2
+
+To replicate the environment, use [`calols.yml`](./Miscellaneous/calols.yml);
+*e.g.*, via
+
+```pwsh
+(base) PS C:\WINDOWS\system32> conda env create --file calols.yml
+```
+
+We use [MathType](http://www.wiris.com/mathtype) to typeset equations
+and mathematical symbols in [`figures.pptx`](./Paper/figures.pptx).
+Preferences (*e.g.*, fonts) are stored in
+[`Default MathType Preferences.eqp`](./Miscellaneous/Default%20MathType%20Preferences.eqp),
+which can then be loaded in MathType.
 
 ---
 
