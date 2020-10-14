@@ -1,5 +1,5 @@
 
-# Consumer Appliance-Level Optimal Load Shedding
+# A Consumer Appliance-Level Framework for Optimized Load Shedding
 
 ---
 
@@ -11,13 +11,34 @@ by
 Jabian, Funaki, and Murata
 which is yet to appear in a peer-reviewed journal.
 
-This is part of the curricular requirements of the course
+This is part of the curricular requirements of the graduate course
 EE 257 Optimization in Power Systems
-handled by Engr. Abdul Aziz G. Mabaning.
-This repository is maintained by Christian Y. Cahig.
+offered by Mindanao State University - Iligan Institute of Technology
+and handled by Engr. Abdul Aziz G. Mabaning.
 
 ---
 
-## Directory
+## Updates
 
-*Lorem ipsum*
+This project is under active development.
+
+---
+
+## Dataset
+
+Lorem ipsum
+
+---
+
+<!-- ## Paper
+
+Lorem ipsum
+
+For specific questions about the paper, please contact
+<a href="mailto:christian.cahig@g.msuiit.edu.ph">Christian Cahig</a>.
+
+--- -->
+
+## Environment
+
+Lorem ipsum
