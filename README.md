@@ -68,7 +68,7 @@ Much of the work is performed in a conda environment with the following key pack
 To replicate the environment, use [`calols.yml`](./Miscellaneous/calols.yml);
 *e.g.*, via
 
-```pwsh
+```.cmd
 (base) PS C:\WINDOWS\system32> conda env create --file calols.yml
 ```
 
