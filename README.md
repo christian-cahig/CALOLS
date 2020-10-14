@@ -24,22 +24,38 @@ and handled by Engr. Abdul Aziz G. Mabaning.
 
 The primary documentation for this project is the paper entitled
 *A Consumer Appliance-Level Framework for Optimized Load Shedding*.
-Everything related to the paper is located in [`./Paper`](./Paper/).
+Everything related to the paper is in [`./Paper`](./Paper/).
 Some of the key files:
 
-- `./Paper/paper_ieee_journ.tex` contains the LaTeX code.
+- [`paper_ieee_journ.tex`](./Paper/paper_ieee_journ.tex)
+  contains the LaTeX code.
   As of now, the paper is only available in the
   [IEEE journal article format](https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/).
-- `./Paper/paper_ieee_journ.pdf` is the compiled PDF file of the paper.
-- `./Paper/references.bib` contains the bibliographic information.
-- `./Paper/figures.pptx` is basically a makeshift "figure manager" where most of the figures in the paper are created and prepared.
+- [`paper_ieee_journ.pdf`](./Paper/paper_ieee_journ.pdf)
+  is the compiled PDF file of the paper.
+- [`references.bib`](./Paper/references.bib)
+  contains the bibliographic information.
+- [`figures.pptx`](./Paper/figures.pptx)
+  is basically a makeshift "figure manager" where most of the figures in the paper are created and prepared.
 
 **Note:** As this project is currently an on-going effort,
 the paper is not yet final and will continually be updated throughout the duration of the course.
 
 ### Datasets
 
-All information regarding 
+Data files and regarding the datasets are in [`./Dataset/`](./Dataset/).
+Aside from the paper, documentation pertaining to the datasets are also avaialable in the following files:
+
+- [`Preparation.ipynb`](./Dataset/Preparation.ipynb)
+  contains codes used in building the datasets.
+- [`Exploratory Analyses.ipynb`](./Dataset/Exploratory%20Analyses.ipynb)
+  contains codes used in performing quantitative analysis on the datasets.
+- [`Benchmarks.ipynb`](./Dataset/Benchmarks.ipynb)
+  contains codes used in benchmark tests on the datasets.
+
+### Miscellaneous files
+
+Files not related 
 
 ---
 
