@@ -7,8 +7,10 @@
 
 An implementation of the paper
 *Consumer Appliance-level Load Shedding Optimization for Real-time Application*
-by
-Jabian, Funaki, and Murata
+(by
+[Marven E. Jabian](https://scholar.google.com/citations?user=JRHJbUQAAAAJ&hl=en&oi=ao),
+[Ryohei Funaki](https://kyushu-u.pure.elsevier.com/en/persons/ryohei-funaki), and
+[Junichi Murata](https://kyushu-u.pure.elsevier.com/en/persons/junichi-murata))
 which is yet to appear in a peer-reviewed journal.
 
 This is part of the curricular requirements of the graduate course
@@ -52,6 +54,10 @@ Aside from the paper, documentation pertaining to the datasets are also avaialab
   contains codes used in performing quantitative analysis on the datasets.
 - [`Benchmarks.ipynb`](./Dataset/Benchmarks.ipynb)
   contains codes used in benchmark tests on the datasets.
+
+### Experiments
+
+Experiment files and codes are in [`./Experiments/`](./Experiments/).
 
 ### Others
 
