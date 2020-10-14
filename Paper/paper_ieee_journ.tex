@@ -1,0 +1,209 @@
+\documentclass[journal, a4paper]{IEEEtran}
+%\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{bm}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{systeme}
+%\usepackage{IEEEtrantools}
+
+%% Custom Additions
+\usepackage{array}
+\usepackage{caption,subcaption}
+\usepackage{datetime}
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage{cleveref}
+\usepackage{fontawesome5}
+\usepackage{lipsum}
+\usepackage{mleftright}
+\usepackage{optidef}
+\usepackage{physics}
+\usepackage{xfrac}
+%\usepackage[utf8]{inputenc}
+%\usepackage[english]{babel}
+%\usepackage{float}
+
+% BibTeX
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+		T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+% Theorems
+\newtheorem{theorem}{Theorem}[section]
+
+% Floor and ceiling functions
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+
+%% Front matter stuff
+\title{A Consumer Appliance-Level Framework\\for Optimized Load Shedding}
+
+%\author{
+%	\IEEEauthorblockN{
+%		Christian Y. Cahig\IEEEauthorrefmark{1}, Abdul Aziz G. Mabaning\IEEEauthorrefmark{2} \\
+%	}
+%	\IEEEauthorblockA{
+%		\textit{Department of Electrical Engineering and Technology, College of Engineering and Technology}\\
+%		\textit{Mindanao State University - Iligan Institute of Technology}\\
+%		\IEEEauthorrefmark{1}chriscahig@gmail.com,
+%		\IEEEauthorrefmark{2}mraaguevarra@gmail.com
+%	}
+%}
+
+\author{
+	Christian.~Y.~Cahig \textsuperscript{\faIcon[regular]{envelope}}, Abdul~Aziz~G.~Mabaning%
+\thanks{
+	The authors are with the Department of Electrical Engineering and Technology,
+	Mindanao State University - Iligan Institute of Technology,
+	Iligan City, Philippines.
+}%
+\thanks{\faIcon[regular]{envelope} {\color{blue}christian.cahig@g.msuiit.edu.ph}}%
+\thanks{\faIcon{github} {\color{blue}https://github.com/christian-cahig/CALOLS}}
+}
+
+%% Document
+\begin{document}
+
+\maketitle
+
+%\noindent
+%\textit{Updated as of {\today\ \currenttime}.}\\
+
+\begin{abstract}
+\lipsum[17]
+\end{abstract}
+
+\begin{IEEEkeywords}
+Optimization, power systems, optimal load shedding.
+\end{IEEEkeywords}
+
+\section{Introduction}
+\label{sec: Introduction}
+
+Load shedding is a course of action a utility company can take
+when the balance between power supply and demand is at risk \cite{Jabian2018},
+or when the system voltage or frequency exceeds its allowable lower limit for more than a minute \cite{GMC2016}.
+Compared to investing on the installation of generating capacities to curb threats on the supply-demand balance,
+load shedding is more economical and realistic in short-term considerations.
+
+Since this strategy directly deals with the customers, load shedding has to be an optimized process.
+As such, one can find numerous works in literature
+(\textit{e.g.},
+fast load shedding \cite{Wester2014},
+clustering-based load shedding \cite{Potel2019}, and
+load shedding during disaster events \cite{Babaei2020})
+on feeder-level implementations.
+In this setting, the smallest ``sheddable" unit of load is the total load connected to a feeder.
+This coarse treatment is prone to excessive shedding of load and an unoptimized utilization of available supply.
+Accordingly, we see works on residence-level implementation:
+\textit{e.g.},
+using smart meters, single-board computers, server monitoring \cite{Bhattacherjee2019},
+detecting rate-of-change of frequency \cite{Sigrist2015},
+and using a mobile distribution-level PMU \cite{Yao2020}.
+
+Moving forward in this trend, \cite{Jabian2020} proposed a shedding framework where the smallest ``sheddable" unit of load is a consumer appliance.
+This granular scheme addresses the concern of excessive load dropping in a feeder-level implementation,
+as well as improves the operation of a residence-level setup.
+Keeping both the utility and the customer in the framework means both parties can make the most of the situation in their perspectives.
+By having the ability to prioritize appliances according to personal judgment, a consumer can avoid total interruption of comfort and/or productivity within his/her premises.
+On the other hand, the utility can maximize the utilization of available power supply.
+
+This work is a reimplementation of the framework originally proposed by \cite{Jabian2020}
+and is part of the curricular requirements of an academic course on Optimization in Power Systems.
+Although we are building on the basic formulation in \cite{Jabian2020},
+this present work differs in a number of ways.
+First, we critique the original work and emphasize some methodological rooms for improvement.
+Second, as the dataset used in the original study is undisclosed,
+we develop synthetic datasets based on the well-known open-sourced test cases
+(\textit{e.g.}, IEEE 37-Node Test Feeder \cite{Kersting2001}).
+Third, we consider different solution strategies,
+in addition to the heuristics-based approach in \cite{Jabian2020},
+for the core optimization problem.
+% TO DO: Update list of contributions.
+Lastly, to promote reproducibility, we make our data files, source codes, and documentation available to the public.
+
+The remainder of this paper proceeds as follows.
+Section \ref{sec: Basic Problem Formulation} presents the consumer appliance-level framework
+and formulates the core optimization problem.
+In Section \ref{sec: A Critique of the Original Work}, we discuss a critique of the original work of \cite{Jabian2020}
+and propose some methods to address the identified issues.
+Section \ref{sec: Datasets} details the procedure, analyses, and benchmarks for the datasets developed.
+% TO DO: Update overview of sections.
+Section \ref{sec: Conclusion} concludes the work.
+
+\section{Basic Problem Formulation}
+\label{sec: Basic Problem Formulation}
+
+% TO DO: Section introduction
+
+\lipsum[8]
+
+\subsection{System Configuration}
+\label{subsec: I. System Configuration}
+
+\subsection{Nomination of Appliances for Load Shedding}
+\label{subsec: I. Nomination of Appliances for Load Shedding}
+
+\subsection{Consumer-side Optimization}
+\label{subsec: I. Consumer-side Optimization}
+
+\subsection{Utility-side Optimization}
+\label{subsecL I. Utility-side Optimization}
+
+\section{A Critique of the Original Work}
+\label{sec: A Critique of the Original Work}
+
+% TO DO: Section introduction
+
+\lipsum[48]
+
+\subsection{On the Cascading Structure of Consumer-side Optimization}
+\label{subsec: II. On the Cascading Structure of Consumer-side Optimization}
+
+\subsection{On the Rush to Heuristics}
+\label{subsec: II. On the Rush to Heuristics}
+
+\subsection{On Case Study Scenarios}
+\label{subsec: II. On Case Study Scenarios}
+
+\section{Datasets}
+\label{sec: Datasets}
+
+% TO DO: Section introduction
+
+\lipsum[32]
+
+\subsection{Preparation}
+\label{subsec: III. Preparation}
+
+\subsection{Quantitative Analyses}
+\label{subsec: III. Quantitative Analyses}
+
+\subsection{Benchmarks}
+\label{subsec: III. Benchmarks}
+
+\section{Conclusion}
+\label{sec: Conclusion}
+
+\lipsum[28]
+
+%%%%%%%%%%%%%%%%%%%%%
+
+% Acknolwedgement
+%\vspace{40pt}
+%\section*{Acknowledgment}
+
+% References
+%\vspace{40pt}
+%\section*{References}
+\bibliographystyle{IEEEtran}
+%The argument is your BibTeX string definitions and bibliography database(s).
+\bibliography{references}
+
+\end{document}
