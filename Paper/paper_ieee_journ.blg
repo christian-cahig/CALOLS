@@ -16,45 +16,45 @@ Database file #1: references.bib
 Warning--empty note in Jabian2020
 
 Done.
-You've used 10 entries,
+You've used 13 entries,
             4087 wiz_defined-function locations,
-            890 strings with 9413 characters,
-and the built_in function-call counts, 7399 in all, are:
-= -- 584
-> -- 179
-< -- 59
-+ -- 98
-- -- 32
-* -- 372
-:= -- 1123
-add.period$ -- 23
-call.type$ -- 10
-change.case$ -- 10
-chr.to.int$ -- 132
-cite$ -- 11
-duplicate$ -- 539
-empty$ -- 588
-format.name$ -- 39
-if$ -- 1698
+            913 strings with 10969 characters,
+and the built_in function-call counts, 11327 in all, are:
+= -- 811
+> -- 432
+< -- 77
++ -- 225
+- -- 91
+* -- 576
+:= -- 1603
+add.period$ -- 30
+call.type$ -- 13
+change.case$ -- 15
+chr.to.int$ -- 174
+cite$ -- 14
+duplicate$ -- 802
+empty$ -- 874
+format.name$ -- 101
+if$ -- 2617
 int.to.chr$ -- 0
-int.to.str$ -- 10
-missing$ -- 101
-newline$ -- 53
-num.names$ -- 10
-pop$ -- 221
+int.to.str$ -- 13
+missing$ -- 181
+newline$ -- 62
+num.names$ -- 15
+pop$ -- 441
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 548
+skip$ -- 816
 stack$ -- 0
-substring$ -- 318
-swap$ -- 448
-text.length$ -- 15
+substring$ -- 419
+swap$ -- 682
+text.length$ -- 19
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 10
+type$ -- 13
 warning$ -- 1
-while$ -- 30
-width$ -- 12
-write$ -- 117
+while$ -- 42
+width$ -- 15
+write$ -- 145
 (There was 1 warning)

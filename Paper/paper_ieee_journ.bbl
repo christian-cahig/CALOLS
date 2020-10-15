@@ -74,4 +74,28 @@ W.~H. {Kersting}, ``{Radial Distribution Test Feeders},'' in \emph{{2001 {IEEE}
   Power Engineering Society Winter Meeting. Conference Proceedings}}.\hskip 1em
   plus 0.5em minus 0.4em\relax {IEEE}, 2001.
 
+\bibitem{NumPy2020}
+C.~R. {Harris}, K.~J. {Millman}, S.~J. {van der Walt}, R.~{Gommers},
+  P.~{Virtanen}, D.~{Cournapeau}, E.~{Wieser}, J.~{Taylor}, S.~{Berg}, N.~J.
+  {Smith}, R.~{Kern}, M.~{Picus}, S.~{Hoyer}, M.~H. {van Kerkwijk}, M.~{Brett},
+  A.~{Haldane}, J.~F. {del R{\'{\i}}o}, M.~{Wiebe}, P.~{Peterson},
+  P.~{G{\'{e}}rard-Marchant}, K.~{Sheppard}, T.~{Reddy}, W.~{Weckesser},
+  H.~{Abbasi}, C.~{Gohlke}, and T.~E. {Oliphant}, ``{Array programming with
+  {NumPy}},'' \emph{{Nature}}, vol. 585, no. 7825, pp. 357--362, Sep. 2020.
+
+\bibitem{Pandas2010}
+W.~McKinney, ``{Data Structures for Statistical Computing in Python},'' in
+  \emph{{Proceedings of the 9th Python in Science Conference}}, {S}t\'efan
+  van~der {W}alt and {J}arrod {M}illman, Eds.\hskip 1em plus 0.5em minus
+  0.4em\relax {SciPy}, 2010, pp. 56--61.
+
+\bibitem{Pandas2020}
+J.~{Reback}, W.~{McKinney}, {jbrockmendel}, J.~V.~D. {Bossche},
+  T.~{Augspurger}, P.~{Cloud}, {gfyoung}, {Sinhrks}, S.~{Hawkins}, A.~{Klein},
+  M.~{Roeschke}, J.~{Tratner}, T.~{Petersen}, C.~{She}, W.~{Ayd},
+  {MomIsBestFriend}, M.~{Garcia}, J.~{Schendel}, A.~{Hayden}, D.~{Saxton},
+  V.~{Jancauskas}, A.~{McMaster}, P.~{Battiston}, {Skipper Seabold},
+  {chris-b1}, {h-vetinari}, K.~{Dong}, S.~{Hoyer}, W.~{Overmeire}, and
+  M.~{Winkel}, ``{pandas-dev/pandas: Pandas 1.1.3},'' Oct. 2020.
+
 \end{thebibliography}
