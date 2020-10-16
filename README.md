@@ -90,6 +90,15 @@ which can then be loaded in MathType.
 
 This project is under active development.
 
+### 17 October 2020
+
+- Public release
+- Datasets release
+  - [Preparation procedure](./Dataset/Preparation.ipynb)
+  - [Quantitative analyses](./Dataset/Exploratory%20Analyses.ipynb)
+- Paper (draft)
+  - [modified IEEE journal article format](./Paper/paper_ieee_journ.pdf)
+
 <!-- ## Paper
 
 Lorem ipsum
