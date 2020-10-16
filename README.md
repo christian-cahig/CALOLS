@@ -26,7 +26,7 @@ and handled by Engr. Abdul Aziz G. Mabaning.
 
 The primary documentation for this project is the paper entitled
 *A Consumer Appliance-Level Framework for Optimized Load Shedding*.
-Everything related to the paper is in [`./Paper`](./Paper/).
+Everything related to the paper is in [`Paper/`](./Paper/).
 Some of the key files:
 
 - [`paper_ieee_journ.tex`](./Paper/paper_ieee_journ.tex)
@@ -45,7 +45,7 @@ the paper is not yet final and will continually be updated throughout the durati
 
 ### Datasets
 
-Data files and regarding the datasets are in [`./Dataset/`](./Dataset/).
+Data files and regarding the datasets are in [`Dataset/`](./Dataset/).
 Aside from the paper, documentation pertaining to the datasets are also avaialable in the following files:
 
 - [`Preparation.ipynb`](./Dataset/Preparation.ipynb)
@@ -57,11 +57,11 @@ Aside from the paper, documentation pertaining to the datasets are also avaialab
 
 ### Experiments
 
-Experiment files and codes are in [`./Experiments/`](./Experiments/).
+Experiment files and codes are in [`Experiments/`](./Experiments/).
 
 ### Others
 
-[`./Miscellaneous`](./Miscellaneous) contains some supporting files
+[`Miscellaneous/`](./Miscellaneous/) contains some supporting files
 that are not directly used in the paper, in the datasets, or in the experiments.
 
 Much of the work is performed in a conda environment with the following key packages:
