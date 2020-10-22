@@ -8,6 +8,8 @@
 \usepackage{algorithmic}
 \usepackage{bm}
 \usepackage{graphicx}
+\graphicspath{{../figures/}}
+\DeclareGraphicsExtensions{.pdf,.jpeg,.png}
 \usepackage{textcomp}
 \usepackage[dvipsnames]{xcolor}
 \usepackage{systeme}
@@ -177,7 +179,7 @@ We assume a communication network that is not wholly centralized:
 
 \begin{figure}[t!]
 	\centering
-	\includegraphics[scale=0.75]{calols_system config.png}
+	\includegraphics[scale=0.75]{system config.png}
 	\caption{System single line diagram and network topology for the consumer appliance-level load shedding.
 	Although the figure depicts one load at each node for brevity, the framework presented is not limited to three-phase loads.}
 	\label{fig: System configuration}
@@ -212,7 +214,7 @@ it follows that the active power ratings of the appliances add up to
 
 \begin{figure}[t!]
 	\centering
-	\includegraphics[scale=0.75]{calols_consumer appliance prioritization.png}
+	\includegraphics[scale=0.75]{consumer appliance prioritization.png}
 	\caption{Grouping of appliances into priority levels for consumer $c$.}
 	\label{fig: Appliance priority levels}
 \end{figure}
@@ -266,7 +268,7 @@ Then, $\mathsf{K}_{c}$ reports $\tilde{S}_{c}$ and $\mathbf{n}_{c}$ to $\mathsf{
 
 \begin{figure}[t!]
 	\centering
-	\includegraphics[scale=0.75]{calols_consumer-side optimization.png}
+	\includegraphics[scale=0.75]{consumer-side optimization.png}
 	\caption{Utilization of $S_{c}$ among the appliances of consumer $c$.}
 	\label{fig: Utilization of consumer expected supply among appliances}
 \end{figure}
@@ -290,7 +292,7 @@ Then the actual shedding implementation commences.
 
 \begin{figure}[t!]
 	\centering
-	\includegraphics[scale=0.75]{calols_utility-side optimization.png}
+	\includegraphics[scale=0.75]{utility-side optimization.png}
 	\caption{Utilization of $S_{\mathsf{U}}$ among appliances preliminarily nominated by $\mathsf{K}_{c}$'s.}
 	\label{fig: Utilization of total unallocated supply from preliminarily nominations among preliminarily nominated appliances}
 \end{figure}
@@ -517,7 +519,7 @@ Our datasets are based on the IEEE 37-Node Test Feeder\footnote{
 (37NTF) \cite{Kersting2001}.
 In Section \ref{subsec: III. Preparation}, we describe the procedure in modifying 37NTF and deriving the datasets.
 % TO DO: Update the tenses when accomplished.
-Section \ref{subsec: III. Quantitative Analyses} is a summary of quantitative measures of the datasets.
+Section \ref{subsec: III. Quantitative Summaries} is a summary of quantitative measures of the datasets.
 % TO DO: Update the tenses when accomplished.
 Section \ref{subsec: III. Benchmarks} discusses the benchmark tests performed on the datasets.
 % TO DO: Update the tenses when accomplished.
@@ -585,8 +587,50 @@ On the other end, $P_{c} = 1$ means consumer $c$ treats all appliances equally i
 37NTF-C is available as a spreadsheet file \texttt{Dataset/37NTF-C.xlsx}.
 
 
-\subsection{Quantitative Analyses}
-\label{subsec: III. Quantitative Analyses}
+\subsection{Quantitative Summaries}
+\label{subsec: III. Quantitative Summaries}
+
+\begin{figure*}[t!]
+	\centering
+	\includegraphics[scale=1.0]{37NTF-A TRPL}
+	\caption{Utilization of $S_{\mathsf{U}}$ among appliances preliminarily nominated by $\mathsf{K}_{c}$'s.}
+%	\label{fig: asd}
+\end{figure*}
+
+\begin{figure*}[t!]
+	\centering
+	\includegraphics[scale=1.0]{37NTF-A ACPL}
+	\caption{Utilization of $S_{\mathsf{U}}$ among appliances preliminarily nominated by $\mathsf{K}_{c}$'s.}
+%	\label{fig: asd}
+\end{figure*}
+
+\begin{figure*}[t!]
+	\centering
+	\includegraphics[scale=1.0]{37NTF-B TRPL}
+	\caption{Utilization of $S_{\mathsf{U}}$ among appliances preliminarily nominated by $\mathsf{K}_{c}$'s.}
+	%	\label{fig: asd}
+\end{figure*}
+
+\begin{figure*}[t!]
+	\centering
+	\includegraphics[scale=1.0]{37NTF-B ACPL}
+	\caption{Utilization of $S_{\mathsf{U}}$ among appliances preliminarily nominated by $\mathsf{K}_{c}$'s.}
+	%	\label{fig: asd}
+\end{figure*}
+
+\begin{figure*}[t!]
+	\centering
+	\includegraphics[scale=1.0]{37NTF-C TRPL}
+	\caption{Utilization of $S_{\mathsf{U}}$ among appliances preliminarily nominated by $\mathsf{K}_{c}$'s.}
+	%	\label{fig: asd}
+\end{figure*}
+
+\begin{figure*}[t!]
+	\centering
+	\includegraphics[scale=1.0]{37NTF-C ACPL}
+	\caption{Utilization of $S_{\mathsf{U}}$ among appliances preliminarily nominated by $\mathsf{K}_{c}$'s.}
+	%	\label{fig: asd}
+\end{figure*}
 
 \subsection{Benchmarks}
 \label{subsec: III. Benchmarks}
@@ -607,6 +651,6 @@ On the other end, $P_{c} = 1$ means consumer $c$ treats all appliances equally i
 %\section*{References}
 \bibliographystyle{IEEEtran}
 %The argument is your BibTeX string definitions and bibliography database(s).
-\bibliography{references}
+\bibliography{../references}
 
 \end{document}

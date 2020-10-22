@@ -3,13 +3,13 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: paper_ieee_journ.aux
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: IEEEtran.bst
-Reallocating 'name_of_file' (item size: 1) to 11 items.
+Reallocating 'name_of_file' (item size: 1) to 14 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-Database file #1: references.bib
+Database file #1: ../references.bib
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -18,7 +18,7 @@ Warning--empty note in Jabian2020
 Done.
 You've used 13 entries,
             4087 wiz_defined-function locations,
-            913 strings with 10969 characters,
+            913 strings with 10972 characters,
 and the built_in function-call counts, 11327 in all, are:
 = -- 811
 > -- 432
