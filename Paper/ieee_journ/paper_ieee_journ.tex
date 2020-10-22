@@ -10,6 +10,7 @@
 \usepackage{graphicx}
 \graphicspath{{../figures/}}
 \DeclareGraphicsExtensions{.pdf,.jpeg,.png}
+\usepackage[caption=false,font=footnotesize]{subfig}
 \usepackage{textcomp}
 \usepackage[dvipsnames]{xcolor}
 \usepackage{systeme}
@@ -17,7 +18,7 @@
 
 %% Custom Additions
 \usepackage{array}
-\usepackage{caption,subcaption}
+%\usepackage{caption,subcaption}
 \usepackage{datetime}
 \usepackage{mathtools}
 \usepackage{hyperref}
@@ -149,7 +150,8 @@ Section \ref{sec: Basic Problem Formulation} presents the consumer appliance-lev
 and formulates the core optimization problem.
 In Section \ref{sec: A Critique of the Original Work}, we discuss a critique of the original work of \cite{Jabian2020}
 and propose some methods to address the identified issues.
-Section \ref{sec: Datasets} details the procedure, analyses, and benchmarks for the datasets developed.
+Section \ref{sec: Datasets} details the procedures for developing the datasets
+as well as benchmarks for different scenarios.
 % TO DO: Update overview of sections.
 Section \ref{sec: Conclusion} concludes the work.
 
@@ -519,8 +521,6 @@ Our datasets are based on the IEEE 37-Node Test Feeder\footnote{
 (37NTF) \cite{Kersting2001}.
 In Section \ref{subsec: III. Preparation}, we describe the procedure in modifying 37NTF and deriving the datasets.
 % TO DO: Update the tenses when accomplished.
-Section \ref{subsec: III. Quantitative Summaries} is a summary of quantitative measures of the datasets.
-% TO DO: Update the tenses when accomplished.
 Section \ref{subsec: III. Benchmarks} discusses the benchmark tests performed on the datasets.
 % TO DO: Update the tenses when accomplished.
 Source codes and related files will be available in \texttt{Dataset/} within the project repository.
@@ -565,7 +565,8 @@ and are documented in \texttt{Dataset/Preparation.ipynb}.
 
 In 37NTF-A, consumers have the same number of appliances and number of priority levels:
 $N_{c} = 100$ and $P_{c} = 5$.
-Note that this does not mean consumers have identical appliances nor the same number of appliances in a priority level.
+This does not mean consumers have identical appliances or the same number of appliances in a priority level
+(see Fig. \ref{fig: Quantitative summaries for 37NTF-A}).
 37NTF-A can be accessed via the file \texttt{Dataset/37NTF-A.xlsx}.
 
 In 37NTF-B, all consumers have the same number of priority levels: $P_{c} = 5$.
@@ -575,65 +576,74 @@ For all other consumers, the number of appliances is given by
 \begin{equation*}
 	N_{c} = \floor*{\frac{L_{c}}{\hat{L_{c}}} \hat{N_{c}}} + U_{d} \left[10,20\right]
 \end{equation*}
-The intuition for this scenario is that the consumer with the largest demand can be expected to have the most number of appliances.
+The intuition for this scenario is that the consumer with the largest demand can be expected to have the most number of appliances
+(see Fig. \ref{fig: Quantitative summaries for 37NTF-B}).
 37NTF-B is stored as a spreadsheet file \texttt{Dataset/37NTF-B.xlsx}.
 
 In 37NTF-C, all consumers have the same number of appliances: $N_{c} = 100$.
 They only differ in the number of priority levels;
 for a consumer $c$, $P_{c}$ is drawn from $U_{d} \left[1,5\right]$.
-This scenario seeks to capture the heterogeneity of consumer preference in terms of appliance prioritization.
+This scenario seeks to capture the heterogeneity of consumer preference in terms of appliance prioritization
+(see Fig. \ref{fig: Quantitative summaries for 37NTF-C}).
 A consumer with $P_{c} = 5$ could be someone who prefers some appliances to be picked up first before others.
 On the other end, $P_{c} = 1$ means consumer $c$ treats all appliances equally important to be picked up.
 37NTF-C is available as a spreadsheet file \texttt{Dataset/37NTF-C.xlsx}.
 
-
-\subsection{Quantitative Summaries}
-\label{subsec: III. Quantitative Summaries}
-
 \begin{figure*}[t!]
 	\centering
-	\includegraphics[scale=1.0]{37NTF-A TRPL}
-	\caption{Utilization of $S_{\mathsf{U}}$ among appliances preliminarily nominated by $\mathsf{K}_{c}$'s.}
-%	\label{fig: asd}
+	\subfloat[\label{fig: Quantitative summaries for 37NTF-A: TRPL}]{
+		\includegraphics[width=0.49\textwidth]{37NTF-A TRPL}
+	}
+	\subfloat[\label{fig: Quantitative summaries for 37NTF-A: ACPL}]{
+		\includegraphics[width=0.49\textwidth]{37NTF-A ACPL}
+	}
+	\caption{
+		Quantitative summaries for 37NTF-A:
+		distribution of $L_{c}$ (a) and of $N_{c}$ (b)
+		across all $p_{c}$'s in all $c$'s.
+		Horizontal axis labels are consumer names.
+	}
+	\label{fig: Quantitative summaries for 37NTF-A}
 \end{figure*}
 
 \begin{figure*}[t!]
 	\centering
-	\includegraphics[scale=1.0]{37NTF-A ACPL}
-	\caption{Utilization of $S_{\mathsf{U}}$ among appliances preliminarily nominated by $\mathsf{K}_{c}$'s.}
-%	\label{fig: asd}
+	\subfloat[\label{fig: Quantitative summaries for 37NTF-B: TRPL}]{
+		\includegraphics[width=0.49\textwidth]{37NTF-B TRPL}
+	}
+	\subfloat[\label{fig: Quantitative summaries for 37NTF-B: ACPL}]{
+		\includegraphics[width=0.49\textwidth]{37NTF-B ACPL}
+	}
+	\caption{
+		Quantitative summaries for 37NTF-B:
+		distribution of $L_{c}$ (a) and of $N_{c}$ (b)
+		across all $p_{c}$'s in all $c$'s.
+		Horizontal axis labels are consumer names.
+	}
+	\label{fig: Quantitative summaries for 37NTF-B}
 \end{figure*}
 
 \begin{figure*}[t!]
 	\centering
-	\includegraphics[scale=1.0]{37NTF-B TRPL}
-	\caption{Utilization of $S_{\mathsf{U}}$ among appliances preliminarily nominated by $\mathsf{K}_{c}$'s.}
-	%	\label{fig: asd}
-\end{figure*}
-
-\begin{figure*}[t!]
-	\centering
-	\includegraphics[scale=1.0]{37NTF-B ACPL}
-	\caption{Utilization of $S_{\mathsf{U}}$ among appliances preliminarily nominated by $\mathsf{K}_{c}$'s.}
-	%	\label{fig: asd}
-\end{figure*}
-
-\begin{figure*}[t!]
-	\centering
-	\includegraphics[scale=1.0]{37NTF-C TRPL}
-	\caption{Utilization of $S_{\mathsf{U}}$ among appliances preliminarily nominated by $\mathsf{K}_{c}$'s.}
-	%	\label{fig: asd}
-\end{figure*}
-
-\begin{figure*}[t!]
-	\centering
-	\includegraphics[scale=1.0]{37NTF-C ACPL}
-	\caption{Utilization of $S_{\mathsf{U}}$ among appliances preliminarily nominated by $\mathsf{K}_{c}$'s.}
-	%	\label{fig: asd}
+	\subfloat[\label{fig: Quantitative summaries for 37NTF-C: TRPL}]{
+		\includegraphics[width=0.49\textwidth]{37NTF-C TRPL}
+	}
+	\subfloat[\label{fig: Quantitative summaries for 37NTF-C: ACPL}]{
+		\includegraphics[width=0.49\textwidth]{37NTF-C ACPL}
+	}
+	\caption{
+		Quantitative summaries for 37NTF-C:
+		distribution of $L_{c}$ (a) and of $N_{c}$ (b)
+		across all $p_{c}$'s in all $c$'s.
+		Horizontal axis labels are consumer names.
+	}
+	\label{fig: Quantitative summaries for 37NTF-C}
 \end{figure*}
 
 \subsection{Benchmarks}
 \label{subsec: III. Benchmarks}
+
+\lipsum[8]
 
 \section{Conclusion}
 \label{sec: Conclusion}

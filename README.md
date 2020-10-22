@@ -38,7 +38,7 @@ Some of the key files:
 - [`references.bib`](./Paper/references.bib)
   contains the bibliographic information.
 - [`figures.pptx`](./Paper/figures/figures.pptx)
-  is basically a makeshift "figure manager" where most of the figures in the paper are created and prepared.
+  is basically a naive "figure manager" where most of the figures in the paper are created and prepared.
 
 **Note:** As this project is currently an on-going effort,
 the paper is not yet final and will continually be updated throughout the duration of the course.
@@ -90,14 +90,16 @@ which can then be loaded in MathType.
 
 This project is under active development.
 
-### 26 October 2020
+### 22 October 2020
 
 - Datasets
   - [quantitative summaries of the datasets](./Dataset/Quantitative%20Summaries.ipynb)
-  - [benchmark tests and results](./Dataset/Benchmarks.ipynb)
 - Updated paper draft
   - added quantitative summaries of the datasets
-  - added benchmark tests and results
+- Others
+  - tidied up [`Paper/`](./Paper/) directory
+    - figures used in the paper are in [`Paper/figures/`](.Paper/figures/)
+    - files related to the paper in IEEE journal article format are in [`Paper/ieee_journ/`](Paper/ieee_journ/)
 
 ### 17 October 2020
 

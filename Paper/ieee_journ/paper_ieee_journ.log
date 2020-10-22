@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.9)  22 OCT 2020 14:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.9)  22 OCT 2020 20:45
 entering extended mode
 **./paper_ieee_journ.tex
 (paper_ieee_journ.tex
@@ -244,7 +244,47 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen171
 \Gin@req@width=\dimen172
-) (C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+) (C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/latex/subfig\subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2020/09/17 v2.1b caption3 kernel (AR)
+\captionmargin=\dimen173
+\captionmargin@=\dimen174
+\captionwidth=\dimen175
+\caption@tempdima=\dimen176
+\caption@indent=\dimen177
+\caption@parindent=\dimen178
+\caption@hangindent=\dimen179
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEta
+blestring \footnotesize \bgroup \par \centering \@IEEEtabletopskipstrut {\norma
+lfont \footnotesize #1}\\{\normalfont \footnotesize \scshape #2}\par \addvspace
+ {0.5\baselineskip }\egroup \@IEEEtablecaptionsepspace \else \@IEEEfigurecaptio
+nsepspace \setbox \@tempboxa \hbox {\normalfont \footnotesize {#1.}\nobreakspac
+e \nobreakspace #2}\ifdim \wd \@tempboxa >\hsize \setbox \@tempboxa \hbox {\nor
+malfont \footnotesize {#1.}\nobreakspace \nobreakspace }\parbox [t]{\hsize }{\n
+ormalfont \footnotesize \noindent \unhbox \@tempboxa #2}\else \ifCLASSOPTIONcon
+ference \hbox to\hsize {\normalfont \footnotesize \hfil \box \@tempboxa \hfil }
+\else \hbox to\hsize {\normalfont \footnotesize \box \@tempboxa \hfil }\fi \fi 
+\fi  on input line 1120.
+)
+\c@KVtest=\count274
+\sf@farskip=\skip55
+\sf@captopadj=\dimen180
+\sf@capskip=\skip56
+\sf@nearskip=\skip57
+\c@subfigure=\count275
+\c@subfigure@save=\count276
+\c@lofdepth=\count277
+\c@subtable=\count278
+\c@subtable@save=\count279
+\c@lotdepth=\count280
+\sf@top=\skip58
+\sf@bottom=\skip59
+)
+(C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
 (C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
@@ -268,71 +308,32 @@ File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 )) (C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/latex/systeme\systeme.sty
 (C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.sty
 (C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.tex
-\integerpart=\count274
-\decimalpart=\count275
+\integerpart=\count281
+\decimalpart=\count282
 )
 Package: xstring 2019/02/06 v1.83 String manipulations (CT)
 ) (C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/generic/systeme\systeme.tex
 \SYS_systemecode=\toks25
 \SYS_systempreamble=\toks26
-\SYSeqnum=\count276
+\SYSeqnum=\count283
 )
 Package: systeme 2020/05/03 v0.34 Mise en forme de systemes d'equations (CT)
 ) (C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen173
+\col@sep=\dimen181
 \ar@mcellbox=\box53
-\extrarowheight=\dimen174
+\extrarowheight=\dimen182
 \NC@list=\toks27
-\extratabsurround=\skip55
-\backup@length=\skip56
+\extratabsurround=\skip60
+\backup@length=\skip61
 \ar@cellbox=\box54
 )
-(C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
-Package: caption 2020/09/12 v3.5b Customizing captions (AR)
-
-(C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
-Package: caption3 2020/09/17 v2.1b caption3 kernel (AR)
-\captionmargin=\dimen175
-\captionmargin@=\dimen176
-\captionwidth=\dimen177
-\caption@tempdima=\dimen178
-\caption@indent=\dimen179
-\caption@parindent=\dimen180
-\caption@hangindent=\dimen181
-Package caption Info: Unknown document class (or package),
-(caption)             standard defaults will be used.
-Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEta
-blestring \footnotesize \bgroup \par \centering \@IEEEtabletopskipstrut {\norma
-lfont \footnotesize #1}\\{\normalfont \footnotesize \scshape #2}\par \addvspace
- {0.5\baselineskip }\egroup \@IEEEtablecaptionsepspace \else \@IEEEfigurecaptio
-nsepspace \setbox \@tempboxa \hbox {\normalfont \footnotesize {#1.}\nobreakspac
-e \nobreakspace #2}\ifdim \wd \@tempboxa >\hsize \setbox \@tempboxa \hbox {\nor
-malfont \footnotesize {#1.}\nobreakspace \nobreakspace }\parbox [t]{\hsize }{\n
-ormalfont \footnotesize \noindent \unhbox \@tempboxa #2}\else \ifCLASSOPTIONcon
-ference \hbox to\hsize {\normalfont \footnotesize \hfil \box \@tempboxa \hfil }
-\else \hbox to\hsize {\normalfont \footnotesize \box \@tempboxa \hfil }\fi \fi 
-\fi  on input line 1120.
-)
-
-Package caption Warning: Unknown document class (or package),
-(caption)                standard defaults will be used.
-See the caption package documentation for explanation.
-
-\c@caption@flags=\count277
-\c@continuedfloat=\count278
-Package caption Info: float package is loaded.
-)
-(C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
-Package: subcaption 2020/08/23 v1.3g Sub-captions (AR)
-\c@subfigure=\count279
-\c@subtable=\count280
-) (C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/latex/datetime\datetime.sty
+(C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/latex/datetime\datetime.sty
 Package: datetime 2015/03/20 v2.60 Date Time Package
 
 (C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count281
+\etb@tempcnta=\count284
 )
 (C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\fmtcount.sty
 Package: fmtcount 2020/01/30 v3.07
@@ -345,7 +346,7 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks28
 \XKV@tempa@toks=\toks29
 )
-\XKV@depth=\count282
+\XKV@depth=\count285
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\fcprefix.sty
@@ -354,39 +355,39 @@ Package: fcprefix 2012/09/28
 (C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\fcnumparser.st
 y
 Package: fcnumparser 2017/06/15
-\fc@digit@counter=\count283
+\fc@digit@counter=\count286
 ))
-\c@padzeroesN=\count284
-\fc@tmpcatcode=\count285
-\@DT@modctr=\count286
-\@ordinalctr=\count287
-\@orgargctr=\count288
-\@strctr=\count289
-\@tmpstrctr=\count290
-\@DT@loopN=\count291
-\@DT@X=\count292
+\c@padzeroesN=\count287
+\fc@tmpcatcode=\count288
+\@DT@modctr=\count289
+\@ordinalctr=\count290
+\@orgargctr=\count291
+\@strctr=\count292
+\@tmpstrctr=\count293
+\@DT@loopN=\count294
+\@DT@X=\count295
 )
 (C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/latex/datetime\datetime-defau
 lts.sty
 Package: datetime-defaults 2013/09/10
 )
-\@day=\count293
-\@month=\count294
-\@year=\count295
-\c@HOUR=\count296
-\c@HOURXII=\count297
-\c@MINUTE=\count298
-\c@TOHOUR=\count299
-\c@TOMINUTE=\count300
-\c@SECOND=\count301
-\currenthour=\count302
-\currentminute=\count303
-\currentsecond=\count304
+\@day=\count296
+\@month=\count297
+\@year=\count298
+\c@HOUR=\count299
+\c@HOURXII=\count300
+\c@MINUTE=\count301
+\c@TOHOUR=\count302
+\c@TOMINUTE=\count303
+\c@SECOND=\count304
+\currenthour=\count305
+\currentminute=\count306
+\currentsecond=\count307
 Package datetime Info: No datetime.cfg file found, using default settings on in
 put line 308.
-\@dtctr=\count305
-\dayofyear=\count306
-\dayofweek=\count307
+\@dtctr=\count308
+\dayofyear=\count309
+\dayofweek=\count310
 LaTeX Info: Redefining \today on input line 736.
 \dt@a=\toks30
 \dt@b=\toks31
@@ -395,16 +396,16 @@ LaTeX Info: Redefining \today on input line 736.
 Package: mathtools 2020/03/24 v1.24 mathematical typesetting tools
 (C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count308
-\calc@Bcount=\count309
-\calc@Adimen=\dimen182
-\calc@Bdimen=\dimen183
-\calc@Askip=\skip57
-\calc@Bskip=\skip58
+\calc@Acount=\count311
+\calc@Bcount=\count312
+\calc@Adimen=\dimen183
+\calc@Bdimen=\dimen184
+\calc@Askip=\skip62
+\calc@Bskip=\skip63
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count310
-\calc@Cskip=\skip59
+\calc@Ccount=\count313
+\calc@Cskip=\skip64
 )
 (C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
 Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
@@ -413,17 +414,17 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
-\g_MT_multlinerow_int=\count311
-\l_MT_multwidth_dim=\dimen184
-\origjot=\skip60
-\l_MT_shortvdotswithinadjustabove_dim=\dimen185
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen186
-\l_MT_above_intertext_sep=\dimen187
-\l_MT_below_intertext_sep=\dimen188
-\l_MT_above_shortintertext_sep=\dimen189
-\l_MT_below_shortintertext_sep=\dimen190
+\g_MT_multlinerow_int=\count314
+\l_MT_multwidth_dim=\dimen185
+\origjot=\skip65
+\l_MT_shortvdotswithinadjustabove_dim=\dimen186
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen187
+\l_MT_above_intertext_sep=\dimen188
+\l_MT_below_intertext_sep=\dimen189
+\l_MT_above_shortintertext_sep=\dimen190
+\l_MT_below_shortintertext_sep=\dimen191
 \xmathstrut@box=\box55
-\xmathstrut@dim=\dimen191
+\xmathstrut@dim=\dimen192
 ) (C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
 
@@ -470,9 +471,9 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 (C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
-\@linkdim=\dimen192
-\Hy@linkcounter=\count312
-\Hy@pagecounter=\count313
+\@linkdim=\dimen193
+\Hy@linkcounter=\count315
+\Hy@pagecounter=\count316
  (C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -484,7 +485,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count314
+\Hy@SavedSpaceFactor=\count317
 Package hyperref Info: Hyper figures OFF on input line 4464.
 Package hyperref Info: Link nesting OFF on input line 4469.
 Package hyperref Info: Hyper index ON on input line 4472.
@@ -492,13 +493,13 @@ Package hyperref Info: Plain pages OFF on input line 4479.
 Package hyperref Info: Backreferencing OFF on input line 4484.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4717.
-\c@Hy@tempcnt=\count315
+\c@Hy@tempcnt=\count318
  (C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5076.
-\XeTeXLinkMargin=\dimen193
+\XeTeXLinkMargin=\dimen194
 
 (C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -508,9 +509,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count316
-\Field@Width=\dimen194
-\Fld@charsize=\dimen195
+\Fld@menulength=\count319
+\Field@Width=\dimen195
+\Fld@charsize=\dimen196
 Package hyperref Info: Hyper figures OFF on input line 6347.
 Package hyperref Info: Link nesting OFF on input line 6352.
 Package hyperref Info: Hyper index ON on input line 6355.
@@ -526,9 +527,9 @@ Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
 ge
 with kernel methods
 )
-\Hy@abspage=\count317
-\c@Item=\count318
-\c@Hfootnote=\count319
+\Hy@abspage=\count320
+\c@Item=\count321
+\c@Hfootnote=\count322
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 (C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
@@ -539,8 +540,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
 e
 with kernel methods
 )
-\Fld@listcount=\count320
-\c@bookmark@seq@number=\count321
+\Fld@listcount=\count323
+\c@bookmark@seq@number=\count324
 
 (C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
 echeck.sty
@@ -553,7 +554,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip61
+\Hy@SectionHShift=\skip66
 )
 (C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/latex/cleveref\cleveref.sty
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
@@ -568,6 +569,7 @@ LaTeX Info: Redefining \cpagerefrange on input line 2370.
 LaTeX Info: Redefining \Cpagerefrange on input line 2370.
 LaTeX Info: Redefining \labelcref on input line 2370.
 LaTeX Info: Redefining \labelcpageref on input line 2370.
+Package cleveref Info: `subfig' support loaded on input line 3164.
 )
 (C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\fontawesom
 e5.sty
@@ -577,7 +579,7 @@ Package: expl3 2020-10-05 L3 programming layer (loader)
 (C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
-\l__kernel_color_stack_int=\count322
+\l__kernel_color_stack_int=\count325
 \l__pdf_internal_box=\box56
 ))
 Package: fontawesome5 2020/03/24 v5.13.0 Font Awesome 5
@@ -626,7 +628,7 @@ Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
 (C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/latex/ifmtarg\ifmtarg.sty
 Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
 ))
-\widthInit=\skip62
+\widthInit=\skip67
 )
 (C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/latex/physics\physics.sty
 Package: physics 
@@ -636,19 +638,19 @@ sty
 (C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xtemplate\xt
 emplate.sty
 Package: xtemplate 2020-10-05 L3 Experimental prototype document functions
-\l__xtemplate_tmp_dim=\dimen196
-\l__xtemplate_tmp_int=\count323
+\l__xtemplate_tmp_dim=\dimen197
+\l__xtemplate_tmp_int=\count326
 \l__xtemplate_tmp_muskip=\muskip18
-\l__xtemplate_tmp_skip=\skip63
+\l__xtemplate_tmp_skip=\skip68
 )
 Package: xfrac 2020-10-05 L3 Experimental split-level fractions
 \l__xfrac_slash_box=\box57
 \l__xfrac_tmp_box=\box58
-\l__xfrac_denominator_bot_sep_dim=\dimen197
-\l__xfrac_numerator_bot_sep_dim=\dimen198
-\l__xfrac_numerator_top_sep_dim=\dimen199
-\l__xfrac_slash_left_sep_dim=\dimen256
-\l__xfrac_slash_right_sep_dim=\dimen257
+\l__xfrac_denominator_bot_sep_dim=\dimen198
+\l__xfrac_numerator_bot_sep_dim=\dimen199
+\l__xfrac_numerator_top_sep_dim=\dimen256
+\l__xfrac_slash_left_sep_dim=\dimen257
+\l__xfrac_slash_right_sep_dim=\dimen258
 \l__xfrac_slash_left_muskip=\muskip19
 \l__xfrac_slash_right_muskip=\muskip20
 
@@ -656,42 +658,42 @@ Package xtemplate Info: Declaring object type 'xfrac' taking 3 argument(s) on
 (xtemplate)             line 80.
 
 )
-\c@theorem=\count324
+\c@theorem=\count327
  (paper_ieee_journ.aux)
 \openout1 = `paper_ieee_journ.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
 
 -- Lines per column: 58 (exact).
 
 (C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count325
-\scratchdimen=\dimen258
+\scratchcounter=\count328
+\scratchdimen=\dimen259
 \scratchbox=\box59
-\nofMPsegments=\count326
-\nofMParguments=\count327
+\nofMPsegments=\count329
+\nofMParguments=\count330
 \everyMPshowfont=\toks32
-\MPscratchCnt=\count328
-\MPscratchDim=\dimen259
-\MPnumerator=\count329
-\makeMPintoPDFobject=\count330
+\MPscratchCnt=\count331
+\MPscratchDim=\dimen260
+\MPnumerator=\count332
+\makeMPintoPDFobject=\count333
 \everyMPtoPDFconversion=\toks33
 )
 (C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
@@ -701,13 +703,13 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 )
 Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: hyperref package is loaded.
+Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 (C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\fc-english.def
 File: fc-english.def 2016/01/12
 )
-Package hyperref Info: Link coloring OFF on input line 73.
+Package hyperref Info: Link coloring OFF on input line 74.
  (C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -718,44 +720,44 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count331
+\c@section@level=\count334
 )
-LaTeX Info: Redefining \ref on input line 73.
-LaTeX Info: Redefining \pageref on input line 73.
-LaTeX Info: Redefining \nameref on input line 73.
+LaTeX Info: Redefining \ref on input line 74.
+LaTeX Info: Redefining \pageref on input line 74.
+LaTeX Info: Redefining \nameref on input line 74.
  (paper_ieee_journ.out) (paper_ieee_journ.out)
 \@outlinefile=\write3
 \openout3 = `paper_ieee_journ.out'.
 
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 76.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 76.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 77.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 77.
 
 
 (C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 76.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 77.
 
 
 (C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
-nput line 76.
+nput line 77.
 
 (C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
 mefree1.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
- input line 76.
+ input line 77.
 
 (C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
 mebrands0.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <8> not a
 vailable
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 76.
+n input line 77.
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--79
+Underfull \hbox (badness 10000) in paragraph at lines 78--80
 
  []
 
@@ -763,33 +765,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--79
 
 
 ]
-<../figures//system config.png, id=114, 229.8186pt x 277.9986pt>
+<../figures//system config.png, id=110, 229.8186pt x 277.9986pt>
 File: ../figures//system config.png Graphic file (type png)
 <use ../figures//system config.png>
-Package pdftex.def Info: ../figures//system config.png  used on input line 182.
+Package pdftex.def Info: ../figures//system config.png  used on input line 184.
 
 (pdftex.def)             Requested size: 172.36353pt x 208.49843pt.
-<../figures//consumer appliance prioritization.png, id=119, 247.6452pt x 289.08
+<../figures//consumer appliance prioritization.png, id=115, 247.6452pt x 289.08
 pt>
 File: ../figures//consumer appliance prioritization.png Graphic file (type png)
 
 <use ../figures//consumer appliance prioritization.png>
 Package pdftex.def Info: ../figures//consumer appliance prioritization.png  use
-d on input line 217.
+d on input line 219.
 (pdftex.def)             Requested size: 185.73343pt x 216.80946pt.
-<../figures//consumer-side optimization.png, id=122, 324.2514pt x 477.4638pt>
+<../figures//consumer-side optimization.png, id=118, 324.2514pt x 477.4638pt>
 File: ../figures//consumer-side optimization.png Graphic file (type png)
 <use ../figures//consumer-side optimization.png>
 Package pdftex.def Info: ../figures//consumer-side optimization.png  used on in
-put line 271.
+put line 273.
 (pdftex.def)             Requested size: 243.18796pt x 358.09697pt.
  [2 <../figures//system config.png> <../figures//consumer appliance prioritizat
 ion.png>]
-<../figures//utility-side optimization.png, id=150, 265.4718pt x 277.5168pt>
+<../figures//utility-side optimization.png, id=146, 265.4718pt x 277.5168pt>
 File: ../figures//utility-side optimization.png Graphic file (type png)
 <use ../figures//utility-side optimization.png>
 Package pdftex.def Info: ../figures//utility-side optimization.png  used on inp
-ut line 295.
+ut line 297.
 (pdftex.def)             Requested size: 199.10335pt x 208.13708pt.
 
 [3 <../figures//consumer-side optimization.png> <../figures//utility-side optim
@@ -800,105 +802,112 @@ LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 5
 (C:\Users\yanya\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-<../figures//37NTF-A TRPL.png, id=222, 371.9496pt x 258.4857pt>
+<../figures//37NTF-A TRPL.png, id=221, 371.9496pt x 247.6452pt>
 File: ../figures//37NTF-A TRPL.png Graphic file (type png)
 <use ../figures//37NTF-A TRPL.png>
-Package pdftex.def Info: ../figures//37NTF-A TRPL.png  used on input line 595.
-(pdftex.def)             Requested size: 371.94868pt x 258.48506pt.
-<../figures//37NTF-A ACPL.png, id=223, 371.2269pt x 258.4857pt>
+Package pdftex.def Info: ../figures//37NTF-A TRPL.png  used on input line 596.
+(pdftex.def)             Requested size: 252.84283pt x 168.34737pt.
+<../figures//37NTF-A ACPL.png, id=222, 371.2269pt x 247.6452pt>
 File: ../figures//37NTF-A ACPL.png Graphic file (type png)
 <use ../figures//37NTF-A ACPL.png>
-Package pdftex.def Info: ../figures//37NTF-A ACPL.png  used on input line 602.
-(pdftex.def)             Requested size: 371.22598pt x 258.48506pt.
-<../figures//37NTF-B TRPL.png, id=224, 371.9496pt x 258.4857pt>
+Package pdftex.def Info: ../figures//37NTF-A ACPL.png  used on input line 599.
+(pdftex.def)             Requested size: 252.84283pt x 168.67233pt.
+
+Overfull \hbox (3.68591pt too wide) in paragraph at lines 596--605
+ [][][][] 
+ []
+
+<../figures//37NTF-B TRPL.png, id=223, 371.9496pt x 247.6452pt>
 File: ../figures//37NTF-B TRPL.png Graphic file (type png)
 <use ../figures//37NTF-B TRPL.png>
-Package pdftex.def Info: ../figures//37NTF-B TRPL.png  used on input line 609.
-(pdftex.def)             Requested size: 371.94868pt x 258.48506pt.
-<../figures//37NTF-B ACPL.png, id=225, 371.2269pt x 258.4857pt>
+Package pdftex.def Info: ../figures//37NTF-B TRPL.png  used on input line 613.
+(pdftex.def)             Requested size: 252.84283pt x 168.34737pt.
+<../figures//37NTF-B ACPL.png, id=224, 371.2269pt x 247.6452pt>
 File: ../figures//37NTF-B ACPL.png Graphic file (type png)
 <use ../figures//37NTF-B ACPL.png>
 Package pdftex.def Info: ../figures//37NTF-B ACPL.png  used on input line 616.
-(pdftex.def)             Requested size: 371.22598pt x 258.48506pt.
-<../figures//37NTF-C TRPL.png, id=226, 371.9496pt x 258.4857pt>
+(pdftex.def)             Requested size: 252.84283pt x 168.67233pt.
+
+Overfull \hbox (3.68591pt too wide) in paragraph at lines 613--622
+ [][][][] 
+ []
+
+<../figures//37NTF-C TRPL.png, id=225, 371.9496pt x 247.6452pt>
 File: ../figures//37NTF-C TRPL.png Graphic file (type png)
 <use ../figures//37NTF-C TRPL.png>
-Package pdftex.def Info: ../figures//37NTF-C TRPL.png  used on input line 623.
-(pdftex.def)             Requested size: 371.94868pt x 258.48506pt.
-<../figures//37NTF-C ACPL.png, id=227, 371.2269pt x 258.4857pt>
+Package pdftex.def Info: ../figures//37NTF-C TRPL.png  used on input line 630.
+(pdftex.def)             Requested size: 252.84283pt x 168.34737pt.
+<../figures//37NTF-C ACPL.png, id=226, 371.2269pt x 247.6452pt>
 File: ../figures//37NTF-C ACPL.png Graphic file (type png)
 <use ../figures//37NTF-C ACPL.png>
-Package pdftex.def Info: ../figures//37NTF-C ACPL.png  used on input line 630.
-(pdftex.def)             Requested size: 371.22598pt x 258.48506pt.
+Package pdftex.def Info: ../figures//37NTF-C ACPL.png  used on input line 633.
+(pdftex.def)             Requested size: 252.84283pt x 168.67233pt.
+
+Overfull \hbox (3.68591pt too wide) in paragraph at lines 630--639
+ [][][][] 
+ []
 
 (paper_ieee_journ.bbl [5]
+Overfull \vbox (3.363pt too high) has occurred while \output is active []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \vbox (badness 3758) has occurred while \output is active []
-
- [6 <../figures//37NTF-A TRPL.png> <../figures//37NTF-A ACPL.png>]
+ [6 <../figures//37NTF-A TRPL.png> <../figures//37NTF-A ACPL.png> <../figures//
+37NTF-B TRPL.png> <../figures//37NTF-B ACPL.png> <../figures//37NTF-C TRPL.png>
+ <../figures//37NTF-C ACPL.png>]
 Underfull \hbox (badness 8056) in paragraph at lines 93--100
 []\OT1/ptm/m/n/8 J. Re-back, W. McK-in-ney, jbrock-mendel, J. V. D. Boss-che,
  []
 
+) [7
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-) [7 <../figures//37NTF-B TRPL.png> <../figures//37NTF-B ACPL.png>] [8 <../figu
-res//37NTF-C TRPL.png> <../figures//37NTF-C ACPL.png>] (paper_ieee_journ.aux)
-
-Package rerunfilecheck Warning: File `paper_ieee_journ.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `paper_ieee_journ.out':
-(rerunfilecheck)             Before: 3417822BDD9D090EBCD6ED97AE7610BE;1064
-(rerunfilecheck)             After:  3F3033A560C26EC8D9E40A426B44193B;1065.
+] (paper_ieee_journ.aux)
+Package rerunfilecheck Info: File `paper_ieee_journ.out' has not changed.
+(rerunfilecheck)             Checksum: 904F559D6FA7C05357B1D1333CFD5312;992.
  ) 
 Here is how much of TeX's memory you used:
- 17845 strings out of 480235
- 322358 string characters out of 2880541
- 910809 words of memory out of 3000000
- 33992 multiletter control sequences out of 15000+200000
+ 17569 strings out of 480235
+ 317861 string characters out of 2880541
+ 925853 words of memory out of 3000000
+ 33715 multiletter control sequences out of 15000+200000
  585953 words of font info for 143 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,17n,77p,1023b,487s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{section*.7} has been referenced but does not exis
-t, replaced by a fixed one
-
-{C:/Users/yanya/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:/U
-sers/yanya/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands
-0.enc}{C:/Users/yanya/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome
-5/fa5free1.enc}<C:/Users/yanya/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/fontawesome5/FontAwesome5Brands-Regular.pfb><C:/Users/yanya/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb><C:/Us
-ers/yanya/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.p
-fb><C:/Users/yanya/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmex10.pfb><C:/Users/yanya/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmmi10.pfb><C:/Users/yanya/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmmi5.pfb><C:/Users/yanya/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/yanya/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/yanya/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/yanya/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb><C:/Users/
-yanya/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
-:/Users/yanya/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7
+ 72i,17n,77p,1023b,519s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/yanya/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:
+/Users/yanya/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5bran
+ds0.enc}{C:/Users/yanya/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontaweso
+me5/fa5free1.enc}<C:/Users/yanya/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/fontawesome5/FontAwesome5Brands-Regular.pfb><C:/Users/yanya/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb><C:/
+Users/yanya/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10
 .pfb><C:/Users/yanya/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmss10.pfb><C:/Users/yanya/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmss8.pfb><C:/Users/yanya/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmsy10.pfb><C:/Users/yanya/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/yanya/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/symbols/msam7.pfb><C:/Users/yanya/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/yan
-ya/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/y
-anya/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/y
-anya/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/
-yanya/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/
-yanya/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper_ieee_journ.pdf (8 pages, 780146 bytes).
+cm/cmex10.pfb><C:/Users/yanya/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmmi10.pfb><C:/Users/yanya/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmmi5.pfb><C:/Users/yanya/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/yanya/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/yanya/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/yanya/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/yany
+a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb>
+<C:/Users/yanya/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+r10.pfb><C:/Users/yanya/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmr7.pfb><C:/Users/yanya/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmss10.pfb><C:/Users/yanya/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmss8.pfb><C:/Users/yanya/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/yanya/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/yanya/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam7.pfb><C:/Users/yanya/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:
+/Users/yanya/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><
+C:/Users/yanya/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><
+C:/Users/yanya/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb>
+<C:/Users/yanya/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
+<C:/Users/yanya/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb
+>
+Output written on paper_ieee_journ.pdf (7 pages, 774173 bytes).
 PDF statistics:
  358 PDF objects out of 1000 (max. 8388607)
  82 named destinations out of 1000 (max. 500000)
- 179 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 171 words of extra memory for PDF output out of 10000 (max. 10000000)
 
