@@ -29,16 +29,16 @@ The primary documentation for this project is the paper entitled
 Everything related to the paper is in [`Paper/`](./Paper/).
 Some of the key files:
 
-- [`paper_ieee_journ.tex`](./Paper/ieee_journ/paper_ieee_journ.tex)
+- [`paper_ieee_journ.tex`](./Paper/paper_ieee_journ.tex)
   contains the LaTeX code.
   As of now, the paper is only available in the
   [IEEE journal article format](https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/).
-- [`paper_ieee_journ.pdf`](./Paper/ieee_journ/paper_ieee_journ.pdf)
+- [`paper_ieee_journ.pdf`](./Paper/paper_ieee_journ.pdf)
   is the compiled PDF file of the paper.
 - [`references.bib`](./Paper/references.bib)
   contains the bibliographic information.
-- [`figures.pptx`](./Paper/figures/figures.pptx)
-  is basically a naive "figure manager" where most of the figures in the paper are created and prepared.
+- [`figures.pptx`](./Paper/figures.pptx)
+  is basically a makeshift "figure manager" where most of the figures in the paper are created and prepared.
 
 **Note:** As this project is currently an on-going effort,
 the paper is not yet final and will continually be updated throughout the duration of the course.
@@ -50,7 +50,7 @@ Aside from the paper, documentation pertaining to the datasets are also avaialab
 
 - [`Preparation.ipynb`](./Dataset/Preparation.ipynb)
   contains codes used in building the datasets.
-- [`Quantitative Summaries.ipynb`](./Dataset/Quantitative%20Summaries.ipynb)
+- [`Exploratory Analyses.ipynb`](./Dataset/Exploratory%20Analyses.ipynb)
   contains codes used in performing quantitative analysis on the datasets.
 - [`Benchmarks.ipynb`](./Dataset/Benchmarks.ipynb)
   contains codes used in benchmark tests on the datasets.
@@ -90,24 +90,14 @@ which can then be loaded in MathType.
 
 This project is under active development.
 
-### 22 October 2020
-
-- Datasets
-  - [quantitative summaries of the datasets](./Dataset/Quantitative%20Summaries.ipynb)
-- Updated paper draft
-  - added quantitative summaries of the datasets
-- Others
-  - tidied up [`Paper/`](./Paper/) directory
-    - figures used in the paper are in [`Paper/figures/`](.Paper/figures/)
-    - files related to the paper in IEEE journal article format are in [`Paper/ieee_journ/`](Paper/ieee_journ/)
-
 ### 17 October 2020
 
 - Public release
 - Datasets release
-  - [preparation procedure](./Dataset/Preparation.ipynb)
+  - [Preparation procedure](./Dataset/Preparation.ipynb)
+  - [Quantitative analyses](./Dataset/Exploratory%20Analyses.ipynb)
 - Paper (draft)
-  - [modified IEEE journal article format](./Paper/ieee_journ/paper_ieee_journ.pdf)
+  - [modified IEEE journal article format](./Paper/paper_ieee_journ.pdf)
 
 <!-- ## Paper
 

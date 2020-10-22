@@ -1,2 +1,15 @@
 calols/
 References/
+Paper/*.bib.bak
+Paper/ieee_journ/*.aux
+Paper/ieee_journ/*.bbl
+Paper/ieee_journ/*.blg
+Paper/ieee_journ/*.log
+Paper/ieee_journ/*.out
+Paper/ieee_journ/*.synctex.gz
+Paper/iclr/*.aux
+Paper/iclr/*.bbl
+Paper/iclr/*.blg
+Paper/iclr/*.log
+Paper/iclr/*.out
+Paper/iclr/*.synctex.gz
