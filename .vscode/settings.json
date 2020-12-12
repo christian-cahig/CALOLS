@@ -53,5 +53,6 @@
             ]
         }
     ],
-    "latex-workshop.view.pdf.hand": true
+    "latex-workshop.view.pdf.hand": true,
+    "python.pythonPath": "C:\\Users\\yanya\\miniconda3\\envs\\calols\\python.exe"
 }
